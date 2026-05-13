@@ -63,3 +63,27 @@ Customer churn dataset containing:
 ## Installation
 ```bash
 pip install -r requirements.txt
+
+Run the Project
+python app.py
+
+Output
+
+The system predicts:
+Churn Customer
+Non-Churn Customer
+Prediction Confidence Score
+
+Folder Structure
+customer-churn-prediction/
+│
+├── app.py
+├── model.py
+├── train.py
+├── requirements.txt
+├── README.md
+├── dataset.csv
+├── models/
+├── static/
+├── templates/
+└── screenshots/
